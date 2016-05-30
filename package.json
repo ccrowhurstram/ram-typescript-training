@@ -1,0 +1,32 @@
+{
+  "name": "ram-typescript-training",
+  "version": "0.0.0",
+  "description": "RAM typescript training repo",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "postinstall": "typings install",
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typings": "typings"
+  },
+  "keywords": [
+    "systemjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ccrowhurstram/ram-typescript-training.git"
+  },
+  "author": "ccrowhurstram",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^2.1.0",
+    "lite-server": "^2.2.0",
+    "typescript": "^1.9.0-dev.20160409",
+    "typings": "^1.0.4"
+  },
+  "dependencies": {
+    "core-js": "^2.4.0",
+    "systemjs": "^0.19.27"
+  }
+}
