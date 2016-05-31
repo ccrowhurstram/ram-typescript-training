@@ -1,5 +1,8 @@
 ## Install instructions
 
+0. Remove old version of Typescript (only applies to machines with Visual Studio installed)
+    1. Browse to folder: C:\Program Files (x86)\Microsoft SDKs\TypeScript
+    2. Delete any folder with a version number < 2.0 (eg 1.0)
 1. Install global tooling:
     1. git
     2. nodejs and npm
@@ -7,8 +10,9 @@
     4. typings: `npm install -g typings`
 2. fork this repo
 3. clone the forked repo locally
-4. install project modules: `npm install`
-    * installs both npm modules and any references typescript definition files
+4. open a cmd prompt with the current directory set the locally cloned directory
+4. at this command prompt install project locally: `npm install`
+    * installs both npm modules and any referenced typescript definition files
     * uses the exact versions of npm modules as defined in npm-shrinkwrap.json
 
 
