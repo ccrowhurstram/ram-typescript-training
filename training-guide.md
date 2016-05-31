@@ -4,6 +4,7 @@
 * Syntax, code flow analysis and type inference
 * Namespaces and ES2015 modules
 
+**Where to find the answers to the training questions?**: checkout the [answers](https://github.com/ccrowhurstram/ram-typescript-training/tree/answers) branch
 
 ## ES2015 features
 
