@@ -10,7 +10,7 @@
     4. typings: `npm install -g typings`
 2. fork this repo
 3. clone the forked repo locally
-4. open a cmd prompt with the current directory set the locally cloned directory
+4. open a cmd prompt with the current directory set to the locally cloned directory
 4. at this command prompt install project locally: `npm install`
     * installs both npm modules and any referenced typescript definition files
     * uses the exact versions of npm modules as defined in npm-shrinkwrap.json
@@ -37,8 +37,20 @@
 
 ## Visual Studio code integration
 
+**Compiling**
+
 The task runner has been configured to run the typescript compiler using the shortcut keys: 
 
 `CTLR+SHIFT+B`
 
 This is equivalent as running `tsc` at the command line
+
+**Debugging**
+
+VSC has been configured to launch a debugger and run the code in main.ts. Press the shortcut key: `F5`
+
+However, you will find that before you can debug the code you will need to ensure that typescript compiles the code into a module format understood by nodejs ie `CommonJS` module format. To do this:
+
+1. Open the `tsconfig.json` file
+2. Change `"module": "system"` -> `"module": "commonjs"`
+3. Recompile the code (tip: `CTLR+SHIFT+B`)
