@@ -1,3 +1,13 @@
+# Overview
+
+> The (in)complete workshop for picking up TypeScript.
+
+## Getting started
+
+1. Follow the install instructions
+2. If you're new to Visual Studio Code, read the section below *'Visual Studio code integration'*
+3. Work through the [training materials](training-guide.md)
+
 ## Install instructions
 
 0. Remove old version of Typescript (only applies to machines with Visual Studio installed)
@@ -6,6 +16,7 @@
 1. Install global tooling:
     1. git
     2. nodejs and npm
+    3. [Visual Studio Code](https://code.visualstudio.com/Download)
     3. typescript: `npm install -g typescript@1.9.0-dev.20160409`
     4. typings: `npm install -g typings`
 2. fork this repo
