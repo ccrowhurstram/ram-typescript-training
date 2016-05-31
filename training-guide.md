@@ -43,8 +43,31 @@ As Typescript is a superset of ES2015 by learning ES2015 we also learn typescrip
 
 **Q:** How to turn a standard script file into a ES2015 module?
 
+**Answer**
+
+Export at least one top-level `import` or `export` statement
+
 **Q:** How to make a class, function, or variable private within a module?
+
+**Answer**
+
+Don't use the `export` keyword
 
 **Q:** When would you use namespaces instead of modules
 
+**Answer**
+* simple projects
+	* *tip:*: use `--outFile` to create a single concatenated file rather than have to include a script tag for each in correct order
+* online code bins  that don't support multiple files (codepen, jsbin, jsfiddle, etc)
+	* *tip*: use destructuring to simulate `import` keyword
+	* **Q:** show me the code
+
 **Q:** When compiling typescript what *target* module format would you choose?
+
+**Answer**
+
+* `commonjs`
+	* when you know your code must run in both the browser node (SystemJs can load all module formates, node cannot)
+	* when you do NOT have circular references between modules
+* `system` registry format when you know you're code will only run inside of the browser
+* `es2015` - wait until 2017/2018 when hopefully it will be supported by browsers and node
