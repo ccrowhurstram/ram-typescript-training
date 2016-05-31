@@ -4,7 +4,7 @@
     1. git
     2. nodejs and npm
     3. typescript: `npm install -g typescript@1.9.0-dev.20160409`
-    4. typings: `npm install typings --global`
+    4. typings: `npm install -g typings`
 2. fork this repo
 3. clone the forked repo locally
 4. install project modules: `npm install`
