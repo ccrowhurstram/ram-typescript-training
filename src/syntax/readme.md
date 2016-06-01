@@ -16,4 +16,4 @@
 10. Pass a constructor function into another function
 11. Convert your interface in exercise 7 to be use a generic type parameter 
 
-Review the code in file `syntax.ts`
+Answers in [syntax.ts](syntax.ts)
