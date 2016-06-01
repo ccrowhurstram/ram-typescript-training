@@ -19,5 +19,5 @@ Generally recommendation is let typescript infer the type for you whenever possi
 
 ## Exercises
 
-Look at `type-annotations.ts` and for each annotation say whether it should have been added
+Look at [type-inference.ts](type-inference.ts) and for each annotation say whether it should have been added
    
