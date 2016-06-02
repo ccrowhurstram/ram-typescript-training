@@ -48,7 +48,7 @@ As Typescript is a superset of ES2015 by learning ES2015 we also learn typescrip
 
 **Answer**
 
-Export at least one top-level `import` or `export` statement
+Include at least one top-level `import` or `export` statement
 
 **Q:** How to make a class, function, or variable private within a module?
 
@@ -60,7 +60,7 @@ Don't use the `export` keyword
 
 **Answer**
 * simple projects
-	* *tip:*: use `--outFile` to create a single concatenated file rather than have to include a script tag for each in correct order
+	* *tip:*: use `--outFile` to create a single concatenated file rather than have to include a script tag for each in index.html
 * online code bins  that don't support multiple files (codepen, jsbin, jsfiddle, etc)
 	* *tip*: use destructuring to simulate `import` keyword
 	* **Q:** show me the code
