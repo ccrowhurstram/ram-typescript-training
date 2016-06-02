@@ -3,6 +3,7 @@
 * ES2015 features
 * Syntax, code flow analysis and type inference
 * Namespaces and ES2015 modules
+* Generics
 
 **Where to find the answers to the training questions?**: checkout the [answers](https://github.com/ccrowhurstram/ram-typescript-training/tree/answers) branch
 
@@ -49,3 +50,13 @@ As Typescript is a superset of ES2015 by learning ES2015 we also learn typescrip
 **Q:** When would you use namespaces instead of modules
 
 **Q:** When compiling typescript what *target* module format would you choose?
+
+
+## Generics
+
+### Learning materials
+
+* [Typescript in-depth - Generics](https://app.pluralsight.com/player?course=typescript-in-depth&author=brice-wilson&name=typescript-in-depth-m8&clip=4&mode=live)
+	* Note: Skip straight to topic "Demo: Creating and Using Generic Functions"
+* [Introduction to Generics in Typescript ](https://egghead.io/lessons/typescript-introduction-to-generics-in-typescript)
+* [egghead.io - Understanding Generics with RxJS](https://egghead.io/lessons/typescript-understanding-generics-with-rxjs)
