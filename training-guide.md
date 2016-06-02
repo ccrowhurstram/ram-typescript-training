@@ -3,6 +3,7 @@
 * ES2015 features
 * Syntax, code flow analysis and type inference
 * Namespaces and ES2015 modules
+* Generics
 
 **Where to find the answers to the training questions?**: checkout the [answers](https://github.com/ccrowhurstram/ram-typescript-training/tree/answers) branch
 
@@ -20,6 +21,7 @@ As Typescript is a superset of ES2015 by learning ES2015 we also learn typescrip
 ### Learning material
 
 * [Syntax](src/syntax)
+* [Typescript in-depth - Function overloads](https://app.pluralsight.com/player?course=typescript-in-depth&author=brice-wilson&name=typescript-in-depth-m4&clip=11&mode=live)
 * [Type inference](src/type-inference)
 * [New features 1.8+](https://www.youtube.com/watch?v=6wEVu_mkJjM#t=44m25s)
 
@@ -72,3 +74,13 @@ Don't use the `export` keyword
 	* when you do NOT have circular references between modules
 * `system` registry format when you know you're code will only run inside of the browser
 * `es2015` - wait until 2017/2018 when hopefully it will be supported by browsers and node
+
+
+## Generics
+
+### Learning materials
+
+* [Typescript in-depth - Generics](https://app.pluralsight.com/player?course=typescript-in-depth&author=brice-wilson&name=typescript-in-depth-m8&clip=4&mode=live)
+	* Note: Skip straight to topic "Demo: Creating and Using Generic Functions"
+* [Introduction to Generics in Typescript ](https://egghead.io/lessons/typescript-introduction-to-generics-in-typescript)
+* [egghead.io - Understanding Generics with RxJS](https://egghead.io/lessons/typescript-understanding-generics-with-rxjs)
