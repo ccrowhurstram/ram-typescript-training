@@ -21,6 +21,7 @@ As Typescript is a superset of ES2015 by learning ES2015 we also learn typescrip
 ### Learning material
 
 * [Syntax](src/syntax)
+* [Typescript in-depth - Function overloads](https://app.pluralsight.com/player?course=typescript-in-depth&author=brice-wilson&name=typescript-in-depth-m4&clip=11&mode=live)
 * [Type inference](src/type-inference)
 * [New features 1.8+](https://www.youtube.com/watch?v=6wEVu_mkJjM#t=44m25s)
 
