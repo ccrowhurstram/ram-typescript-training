@@ -19,5 +19,6 @@
 13. As 12, but your function should accept either a Buidling or Room or Site *class* (make sure each class has a different method)
 14. As 12, but your function should accept either an Animal or Plant *interface* 
 15. For the function you created in exercise 13, pass an object literal that looks like a Building
+16. Declare a function that itself has a property/field
 
 Answers in [syntax.ts](syntax.ts)
