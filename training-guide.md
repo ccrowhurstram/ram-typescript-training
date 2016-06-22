@@ -3,7 +3,9 @@
 * ES2015 features
 * Syntax, code flow analysis and type inference
 * Namespaces and ES2015 modules
+* Type merging
 * Generics
+* External type declarations
 
 **Where to find the answers to the training questions?**: checkout the [answers](https://github.com/ccrowhurstram/ram-typescript-training/tree/answers) branch
 
@@ -84,3 +86,25 @@ Don't use the `export` keyword
 	* Note: Skip straight to topic "Demo: Creating and Using Generic Functions"
 * [Introduction to Generics in Typescript ](https://egghead.io/lessons/typescript-introduction-to-generics-in-typescript)
 * [egghead.io - Understanding Generics with RxJS](https://egghead.io/lessons/typescript-understanding-generics-with-rxjs)
+
+
+## Type merging
+
+Typescript can merge two type declarations (eg a two interface declarations) into a single unified type.
+
+The closest counter part to this in c# is partial classes: multiple class files with the same class name are merged together compiler
+into a single class definition.
+
+Unlike c#, typescript is not limited to merging together class files. For example, an interface and a class can be merged.
+
+### Learning material
+
+* [Declaration Merging](http://www.typescriptlang.org/docs/handbook/declaration-merging.html)
+
+
+## External type definitions
+
+### Learning material
+
+* [Type Definitions](https://app.pluralsight.com/player?course=typescript-in-depth&author=brice-wilson&name=typescript-in-depth-m10&clip=0&mode=live)
+* [training-guide-type-definitions.md](training-guide-type-definitions.md)
