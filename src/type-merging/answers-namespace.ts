@@ -1,14 +1,40 @@
 namespace TypeMerging {
-    // TODO: add your extensions here
+
+    export interface IEmployer {
+        address: string;
+        raiseSalary(employee: Employee): void;
+    }
+
+    export namespace IEmployer.raiseSalary {
+        export let amount = 10;
+    }
+
+    export interface Employee {
+        title: string;
+        getFullName(): string;
+    }
+    Employee.prototype.getFullName = getFullName
+
+    function getFullName() {
+        return this.firstName + ' ' + this.lastName;
+    }
+
+    export class Office {
+        address: string;
+    }
+
+    export namespace Office {
+        export let level = 2;
+    }
 }
 
-/**
- * TODO: Uncomment namespace below and make work
- */
-/*
 namespace TypeMergingNsTests {
     // 1. Extend `IEmployer` interface with a new `address` field of type `string`
-    let employer: TypeMerging.IEmployer;
+    let employer: TypeMerging.IEmployer = {
+        name: "Chr",
+        address: "Op",
+        raiseSalary(e?: TypeMerging.Employee) {}
+    };
     let employee = new TypeMerging.Employee(employer);
 
     // 2. Extend `TypeMerging` namespace with a new `Office` class
@@ -26,10 +52,6 @@ namespace TypeMergingNsTests {
     // 6. Extend `IEmployer.raiseSalary` function with an `amount` field
     TypeMerging.IEmployer.raiseSalary.amount = 1;
 
-    // 7. Extend `printEmployee` function with a new `isEnabled` field
-    TypeMerging.printEmployee.isEnabled = true;
-    
-    // 8. Extend `Office` class you added in 2) with a new `level` static field, but *without modifying the existing class declaration* you wrote in 2)
+    // 7. Extend `Office` class you added in 2) with a new `level` static field, but *without modifying the existing class declaration* you wrote in 2)
     TypeMerging.Office.level = 3;
 }
-*/

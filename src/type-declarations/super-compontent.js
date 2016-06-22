@@ -13,3 +13,24 @@ var SuperComponent;
         }());
     }
 })(SuperComponent || (SuperComponent = {}));
+
+/*
+namespace SuperComponent {
+
+    export interface IMyService {
+        getUrl(): string;
+    }
+
+    angular.module("super-component", [])
+        .factory("myService", myService);
+
+    myService.$inject = ["$location"]
+    function myService($location: ng.ILocationService) {
+
+        return class MyService implements IMyService {
+            _doPrivateStuff() {}
+            getUrl(){ return $location.url(); }
+        }
+    }
+}
+ */
