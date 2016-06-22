@@ -63,6 +63,7 @@ As Typescript is a superset of ES2015 by learning ES2015 we also learn typescrip
 	* Note: Skip straight to topic "Demo: Creating and Using Generic Functions"
 * [Introduction to Generics in Typescript ](https://egghead.io/lessons/typescript-introduction-to-generics-in-typescript)
 * [egghead.io - Understanding Generics with RxJS](https://egghead.io/lessons/typescript-understanding-generics-with-rxjs)
+* [Generics](src/generics/readme.md)
 
 
 ## Type merging
