@@ -77,7 +77,8 @@ Unlike c#, typescript is not limited to merging together class files. For exampl
 
 ### Learning material
 
-* [Declaration Merging](http://www.typescriptlang.org/docs/handbook/declaration-merging.html)
+* [Typescript handbook - Declaration Merging](http://www.typescriptlang.org/docs/handbook/declaration-merging.html)
+* [Type Merging](src/type-merging/readme.md)
 
 
 ## External type definitions
