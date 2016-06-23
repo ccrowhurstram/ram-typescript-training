@@ -86,6 +86,7 @@ Don't use the `export` keyword
 	* Note: Skip straight to topic "Demo: Creating and Using Generic Functions"
 * [Introduction to Generics in Typescript ](https://egghead.io/lessons/typescript-introduction-to-generics-in-typescript)
 * [egghead.io - Understanding Generics with RxJS](https://egghead.io/lessons/typescript-understanding-generics-with-rxjs)
+* [Generics](src/generics/readme.md)
 
 
 ## Type merging
@@ -99,7 +100,8 @@ Unlike c#, typescript is not limited to merging together class files. For exampl
 
 ### Learning material
 
-* [Declaration Merging](http://www.typescriptlang.org/docs/handbook/declaration-merging.html)
+* [Typescript handbook - Declaration Merging](http://www.typescriptlang.org/docs/handbook/declaration-merging.html)
+* [Type Merging](src/type-merging/readme.md)
 
 
 ## External type definitions
