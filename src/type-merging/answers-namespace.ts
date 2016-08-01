@@ -52,6 +52,9 @@ namespace TypeMergingNsTests {
     // 6. Extend `IEmployer.raiseSalary` function with an `amount` field
     TypeMerging.IEmployer.raiseSalary.amount = 1;
 
-    // 7. Extend `Office` class you added in 2) with a new `level` static field, but *without modifying the existing class declaration* you wrote in 2)
+    // 7. Extend printEmployee function with a new isEnabled field
+    // Trick question - you can't (but you can when using es2015 modules)
+
+    // 8. Extend `Office` class you added in 2) with a new `level` static field, but *without modifying the existing class declaration* you wrote in 2)
     TypeMerging.Office.level = 3;
 }
